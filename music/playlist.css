@@ -1,0 +1,36 @@
+#list{
+    background:rgb(255, 237, 163);
+    font-family: sans-serif;
+    text-decoration: none;
+    display: inline-block;
+}
+
+body{
+    background:url('https://images.pexels.com/photos/1644616/pexels-photo-1644616.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+     /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+    
+}
+
+.float{
+	position:fixed;
+	width:100%;
+	height:80px;
+	bottom:40px;
+	right:40px;
+	background-color:white;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:22px;
+}

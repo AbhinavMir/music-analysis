@@ -1,0 +1,14 @@
+<script>
+
+function SetCookie(songs)
+{
+    document.cookie="song="+songs;
+}
+
+function destroyCookie(){
+    document.cookie = "song="+songs+ '=;expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+};
+
+SetCookie('Hi');
+alert(document.cookie);
+</script>
