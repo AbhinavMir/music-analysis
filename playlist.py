@@ -2,7 +2,7 @@ import billboard
 import mysql.connector
 import random
 
-cnx = mysql.connector.connect(user='root', password='', host='127.0.0.1', database='musicrec')
+cnx = mysql.connector.connect(user='root', password='', host='127.0.0.1', database='XXXX')
 cursor = cnx.cursor()
 
 allbb=billboard.charts()

@@ -6,7 +6,7 @@ import lyricsgenius
 import pprint
 
 pp = pprint.PrettyPrinter(indent=4)
-genius = lyricsgenius.Genius("pptfhHkZY3lHqs5QDiqYkYlp1Hh2Y2TqVslna3zBlMlbHlJ_P5b7T2MOc3wPS3Bn")
+genius = lyricsgenius.Genius("XXXX")
 
 cnx = mysql.connector.connect(user='root', password='', host='127.0.0.1', database='musicrec')
 cursor = cnx.cursor()
@@ -23,9 +23,9 @@ def lyrics_(val):
     cursor.execute(sql,values)
     cnx.commit()
 
-id="ab0bb00bdf654551b0e4d0ccaa44f338"
-secret="d2aa7c2b15064f0e8322f0e9b2517798"
-genius = lyricsgenius.Genius("c1MKe6DhKC5psfH49i4rkJiV6Ub-G-T6YP131rxsXV--IKMv_HjKXVNQspTB6slG")
+id="XXXX"
+secret="XXXX"
+genius = lyricsgenius.Genius("XXXX")
 
 
 cid =id
