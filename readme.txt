@@ -1,5 +1,6 @@
 ## Run instructions
-(This project has shitty codebase)
+(This project has shitty codebase, I didn't even bother hiding my ParallelDots API key, use it, but if it runs out, replace it with yours)
+* This is to be run like a usual PHP website
 * Import DB.SQL into your localhost after creating a database called 'MUSICREC'
 * Make sure you're online because we need CDNs referenced
 * Start your apache/appserv server
