@@ -1,5 +1,5 @@
 ## Run instructions
-(This project has shitty codebase, I didn't even bother hiding my ParallelDots API key, use it, but if it runs out, replace it with yours)
+(This project has shitty codebase, wrote it long time ago, I didn't even bother hiding my ParallelDots API key, use it, but if it runs out, replace it with yours)
 * This is to be run like a usual PHP website
 * Make sure you have Python3, debug as usual
 * Import DB.SQL into your localhost after creating a database called 'MUSICREC'
